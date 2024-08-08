@@ -1,0 +1,22 @@
+1. 
+
+Objective:
+This program will find the count of occurences values or elements that are present in the data and add it to the Dictionary.
+
+Script:
+Function = f(s) -> s = (string/list/None...)
+r = {}             -> Empty Dictionary
+for i in s:        -> For loop implementation to the s indices.
+if i in r:         -> if condition to the r and i.
+r[i] += 1          -> adding the 1 value to the Dictionary
+else:              -> Else condition
+r[i] = 0           -> adding the 0 value to the Dictionary
+return r           -> returning the output of r 
+
+Input:
+s = list, string, NaN
+r = {}
+
+Output:
+r = {'key':'count'}
+
