@@ -12,6 +12,3 @@ def f(s):
         else:
             r[i] = 0  #we can change this to 1 instead of 0
     return r
-
-demo = f(["hello",1,1,"bye"])
-print(demo)
