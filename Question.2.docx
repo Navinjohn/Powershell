@@ -1,0 +1,9 @@
+Tell us about a scenario where you had to make changes to an existing Infrastructure-as-code setup to introduce a new change/fix a bug. 
+What are the challenges you faced? 
+How did you go about understanding other people's IAC code and modifying it?
+
+I have used terraform to change the version of the sql server in the vm.
+I imported the vm using the command terraform import vmname.vmid but i have faced an access issue so i checked the IAM and Security groups,
+then i found that the ssh was blocked then i opened that port and resolved this issue.
+I refer the documentation of the IAC code, also refer the commands in the code, i will modify it to modules so that it would be easy to read and 
+use in the future.
